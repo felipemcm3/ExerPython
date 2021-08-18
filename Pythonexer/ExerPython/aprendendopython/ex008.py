@@ -1,0 +1,8 @@
+m = float(input('Informe a metragem'))
+print('A metragem {} metros equivale a:'.format(m))
+print('{}km'.format(m / 1000))
+print('{}hm'.format(m / 100))
+print('{}dam'.format(m / 10))
+print('{}dm'.format(m * 10))
+print('{}cm'.format(m * 100))
+print('{}mm'.format(m * 1000))

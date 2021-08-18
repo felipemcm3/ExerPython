@@ -1,0 +1,5 @@
+nome = str(input('Informe o nome inteiro')).strip()
+print('Nome em maiusculo {} '.format(nome.upper()))
+print('Nome em minusculo {}'.format(nome.lower()))
+print('A quantidade de caracteres sem contar espaços é {}'.format(len(nome) - nome.count(' ')))
+print('O primeiro nome tem {} caracteres'.format(nome.find(' ')))

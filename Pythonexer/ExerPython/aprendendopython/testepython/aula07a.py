@@ -1,0 +1,5 @@
+nome = input('Informe seu nome')
+print('Ola {}'.format(nome), end='&&&')
+idade = int(input('Informe sua idade'))
+print('Você está programando', end=' em ')
+print('PYTHON')
